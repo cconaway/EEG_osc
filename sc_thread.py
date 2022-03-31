@@ -11,7 +11,7 @@ from pythonosc.dispatcher import Dispatcher
 from pythonosc import udp_client
 
 #Set Server IP - BaseStation Sending EEG OSC
-server_ip = "192.168.0.55"
+server_ip = "127.0.0.1"
 server_port = 8000
 
 #Set Client IP - LocalHost -> OSC Reciever 
